@@ -1,0 +1,655 @@
+@font-face
+{
+    font-family: 'Gira';
+    src: url(../fonts/Girassol-Regular.ttf);
+}
+
+@media only screen and (max-width: 699px)
+{
+
+    html
+    {
+        font-family: 'Gira';
+    }
+
+    #grid
+    {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        overflow-wrap: break-word;
+    }
+
+    header
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    nav
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    article
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    ::-webkit-scrollbar {
+        width: 2.2%;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 8px rgb(34, 34, 34); 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(0, 0, 0); 
+        border: white solid 1px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #1b1b1b; 
+    }
+
+
+    body
+    {
+        background-color: black;
+        color: white;
+    }
+
+    header
+    {
+        background-image: url(../images/circuitBackground.png);
+        padding: 10%;
+        width: 80%;
+    }
+    header > h1
+    {
+        font-size: 3em;
+        text-align: center;
+        
+    }
+
+    /* Navigation Bar Styles */
+
+    nav
+    {
+        width: 90%;
+        background-color: rgb(0, 0, 36);
+        padding: 5%;
+    }
+
+    nav > a
+    {
+        text-decoration: none;
+        vertical-align: middle;
+        width: 95%;
+        height: 80px;
+    }
+
+    .links
+    {
+        width: 95%;
+        height: 80px;
+        border-radius: 25px 0px 25px 0px;
+        background-color: rgb(8, 26, 25);
+        box-shadow: 0px 0px 15px rgb(22, 53, 48);
+        font-size: 2em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        transition: 0.33s; 
+        line-height: 70px;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+
+    /* content styles */
+
+    article
+    {
+        background-color: black;
+        width: 95%;
+        padding: 2.5%;
+
+    }
+
+    div#versus
+    {
+        margin: auto;
+        width: 300px;
+    }
+
+    div#versus > img
+    {
+        width: 300px;
+        margin: auto;
+        border: 10px double white;;
+        border-radius: 30px;
+    }
+
+    div#versus > p
+    {
+        width: 300px;
+        margin: auto;
+        font-size: 5em;
+        text-align: center;
+        text-shadow: rgb(69, 179, 187) 0px 5px 5px;
+    }
+
+    div.content
+    {
+        width: 95%;
+        padding: 2.5%;
+    }
+
+    div.content > div
+    {
+        text-indent: 2em;
+        font-size: 1.5em;
+        border-radius: 50px 5px 50px 5px;
+        background-color:  rgb(14, 14, 32);
+        padding: 20px;
+        border: solid rgb(14, 66, 68) 1px;
+    }
+
+    div.content > h3
+    {
+        font-size: 3em;
+        text-shadow: 0px 5px 5px rgb(43, 115, 128);
+        
+    }
+    div.content > p
+    {
+        text-indent: 2em;
+        font-size: 1.5em;
+        border-radius: 50px 5px 50px 5px;
+        background-color:  rgb(14, 14, 32);
+        padding: 20px;
+        border: solid rgb(14, 66, 68) 1px;
+        font-size: 1.6em;
+        font-weight: 100;
+    }
+
+    /* footer */
+    footer 
+    {
+        width: 97.5%;
+        padding: 1.25%;
+        background-color: rgb(19, 25, 26);
+    }
+
+    footer > p
+    {
+        color: rgb(134, 134, 134);
+        font-size: 1.3em;
+    }
+
+
+
+    }
+
+
+@media only screen and (min-width: 700px) and (max-width: 1199px)
+{
+
+    html
+    {
+        font-family: 'Gira';
+    }
+
+    #grid
+    {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        overflow-wrap: break-word;
+    }
+
+    header
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    nav
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    article
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    ::-webkit-scrollbar {
+        width: 2.2%;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 8px rgb(26, 36, 39); 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(0, 0, 0); 
+        border: white solid 1.5px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #162f30; 
+    }
+
+
+    body
+    {
+        background-color: black;
+        color: white;
+    }
+
+    header
+    {
+        background-image: url(../images/circuitBackground.png);
+        padding: 7.5%;
+        width: 85%;
+    }
+    header > h1
+    {
+        font-size: 4em;
+        text-align: center;
+        
+    }
+
+    /* Navigation Bar Styles */
+
+    nav
+    {
+        width: 90%;
+        background-color: rgb(0, 0, 36);
+        padding: 5%;
+        box-shadow: inset black 0px 0px 10px 2px;
+        justify-content: space-evenly;
+        
+    }
+
+    nav > a
+    {
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        width: 95%;
+        height: 80px;
+        justify-content: space-evenly;
+
+    }
+
+    nav > a:first-of-type
+    {
+        margin-right: 10%;
+    }
+
+    .links
+    {
+        width: 40%;
+        border-radius: 50px 0px 50px 0px;
+        background-color: rgb(8, 26, 25);
+        box-shadow: 0px 0px 15px rgb(22, 53, 48);
+        font-size: 3em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: inline-flex;
+        margin: 0 auto;
+        transition: 0.33s; 
+        line-height: 70px;
+        margin: 10px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: sp
+    }
+
+
+    /* content styles */
+
+    article
+    {
+        background-color: black;
+        width: 95%;
+        padding: 2.5%;
+
+    }
+
+    div#versus
+    {
+        margin: auto;
+        width: 400px;
+    }
+
+    div#versus > img
+    {
+        width: 400px;
+        margin: auto;
+        border: 12px double white;;
+        border-radius: 40px;
+    }
+
+    div#versus > p
+    {
+        width: 400px;
+        margin: auto;
+        font-size: 7em;
+        text-align: center;
+        text-shadow: rgb(69, 179, 187) 0px 7px 7px;
+    }
+
+    div.content
+    {
+        width: 90%;
+        padding: 5%;
+    }
+
+    div.content > div
+    {
+        text-indent: 2.5em;
+        font-size: 1.75em;
+        border-radius: 100px 5px 100px 5px;
+        background-color:  rgb(14, 14, 32);
+        padding: 35px;
+        border: double rgb(14, 66, 68) 3px;
+    }
+
+    div.content > h3
+    {
+        font-size: 4.2em;
+        text-shadow: 0px 7px 7px rgb(43, 115, 128);
+        
+    }
+    div.content > p
+    {
+        text-indent: 2.5em;
+        font-size: 1.75em;
+        border-radius: 100px 5px 100px 5px;
+        background-color:  rgb(14, 14, 32);
+        padding: 35px;
+        border: double rgb(14, 66, 68) 3px;
+        font-size: 1.6em;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    /* footer */
+    footer 
+    {
+        width: 95%;
+        padding: 2.5%;
+        background-color: rgb(19, 25, 26);
+    }
+
+    footer > p
+    {
+        color: rgb(134, 134, 134);
+        font-size: 1.5em;
+    }
+}
+
+
+@media only screen and (min-width: 1200px)
+{
+
+    html
+    {
+        font-family: 'Gira';
+    }
+
+    #grid
+    {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        overflow-wrap: break-word;
+    }
+
+    header
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    nav
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    article
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    footer
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    ::-webkit-scrollbar {
+        width: 2.2%;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 12px rgb(30, 42, 46); 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(0, 0, 0); 
+        border: white double 3.5px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #163031; 
+    }
+
+
+    body
+    {
+        background-color: black;
+        color: white;
+    }
+
+    header
+    {
+        background-image: url(../images/circuitBackground.png);
+        padding: 5%;
+        width: 90%;
+    }
+    header > h1
+    {
+        font-size: 10em;
+        text-align: center;
+        text-shadow: rgb(0, 247, 255) 0px 0px 15px;
+        
+    }
+
+    /* Navigation Bar Styles */
+
+    nav
+    {
+        width: 90%;
+        background-color: rgb(0, 0, 36);
+        padding: 5%;
+        box-shadow: inset black 0px 0px 25px 4px;
+        justify-content: space-evenly;
+        
+    }
+
+    nav > a
+    {
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        width: 95%;
+        height: 200px;
+        justify-content: space-evenly;
+
+    }
+
+    nav > a:first-of-type
+    {
+        margin-right: 10%;
+    }
+
+    .links
+    {
+        width: 40%;
+        height: 100px;
+        border-radius: 75px 0px 75px 0px;
+        background-color: rgb(8, 26, 25);
+        box-shadow: 0px 0px 15px rgb(22, 53, 48);
+        font-size: 3.5em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: inline-flex;
+        margin: 0 auto;
+        transition: 0.33s; 
+        line-height: 85px;
+        margin: 10px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: white solid 2px;
+        
+    }
+
+
+    /* content styles */
+
+    article
+    {
+        background-color: black;
+        width: 95%;
+        padding: 2.5%;
+
+    }
+
+    div#versus
+    {
+        margin: auto;
+        width: 600px;
+    }
+
+    div#versus > img
+    {
+        width: 600px;
+        margin: auto;
+        border: 15px double white;;
+        border-radius: 50px;
+    }
+
+    div#versus > p
+    {
+        width: 600px;
+        margin: auto;
+        font-size: 9em;
+        text-align: center;
+        text-shadow: rgb(69, 179, 187) 0px 7px 7px;
+    }
+
+    div.content
+    {
+        width: 90%;
+        padding: 5%;
+    }
+
+    div.content > div
+    {
+        text-indent: 2.6em;
+        font-size: 2.1em;
+        border-radius: 125px 0px 125px 0px;
+        background-color:  rgb(14, 14, 32);
+        padding: 45px;
+        border: double rgb(14, 66, 68) 5px;
+        box-shadow: 0px 10px 5px 5px rgb(22, 112, 116);
+    }
+
+    div.content > h3
+    {
+        font-size: 5.5em;
+        text-shadow: 0px 7px 7px rgb(43, 115, 128);
+        
+    }
+    div.content > p
+    {
+        text-indent: 2.6em;
+        font-size: 2.1em;
+        border-radius: 125px 15px 125px 15px;
+        background-color:  rgb(14, 14, 32);
+        padding: 45px;
+        border: double rgb(14, 66, 68) 5px;
+        font-weight: 100;
+        margin-bottom: 30px;
+        box-shadow: 0px 10px 5px 5px rgb(22, 112, 116);
+    }
+
+    /* footer */
+    footer 
+    {
+        width: 90%;
+        padding: 5%;
+        background-color: rgb(19, 25, 26);
+        box-shadow: inset black 0px 0px 20px 5px;
+    }
+
+    footer > p
+    {
+        color: rgb(134, 134, 134);
+        font-size: 1.8em;
+    }
+}
